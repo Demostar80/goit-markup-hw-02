@@ -1,20 +1,25 @@
+.body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
 :root {
   --white: #ffffff;
   --btn-background-cloud-color: #f4f4fd;
   --btn-hover-color: #404bbf;
   --main-text-footer-background-color: #2e2f42;
-  --body-background-color: #e5e5e5;
+  --background-color: #e5e5e5;
   --cornflower-color: #e7e9fc;
   --descr-text-color: #434455;
   --logo-web-color: #4D5AE5;
   
   
-
-body {
+ .body {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
 }
 
+  
 .list {
   list-style: none;
 }
