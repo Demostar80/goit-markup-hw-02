@@ -122,18 +122,22 @@ body {
 
 /*Main section portfolio*/
 
-.main-btn-list {
+.btn-list {
   background-color: #e5e5e5;
 }
 
 .btn-list-text {
-  font-family: inherit;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 2;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
   cursor: pointer;
-  text-decoration-color: #4d5ae5;
+  color: #4d5ae5;
 }
 
 .btn-list-text :hover {
@@ -141,7 +145,7 @@ body {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 2;
+  line-height: 1.5;
   cursor: pointer;
   text-decoration-color: var(--white);
 }
