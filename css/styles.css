@@ -34,7 +34,7 @@ body {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.75;
+  line-height: 1.17;
   display: flex;
   align-items: center;
   letter-spacing: 0.03em;
@@ -46,7 +46,7 @@ body {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.75;
+  line-height: 1.17;
   display: flex;
   align-items: center;
   letter-spacing: 0.03em;
@@ -68,7 +68,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--footer-background-color);
+  color: #2e2f42;
 }
 
 .heder-link {
@@ -76,6 +76,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 
 .list :hover,
@@ -122,11 +123,14 @@ body {
 
 /*Main section portfolio*/
 
-.btn-list {
+.btn-item {
   background-color: #e5e5e5;
 }
 
 .btn-list-text {
+}
+
+.btn-list {
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -136,21 +140,26 @@ body {
   align-items: center;
   text-align: center;
   letter-spacing: 0.04em;
-  cursor: pointer;
-  color: #4d5ae5;
+  color: var(--logo-web-color);
+  background-color: var(--btn-background-cloud-color);
 }
 
-.btn-list-text :hover {
-  font-family: inherit;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
+.btn-list-text :hover,
+.btn-list-text :focus {
+  color: #ffffff;
+  background-color: #404bbf;
   cursor: pointer;
-  text-decoration-color: var(--white);
 }
 
 /*Progects list*/
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
 .progects-item {
 }
 .progects-list {
@@ -220,14 +229,14 @@ body {
   font-style: normal;
   font-weight: 700;
   font-size: 56px;
-  line-height: 5;
+  line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
 }
 
 .hero-btn {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -239,10 +248,18 @@ body {
   color: #ffffff;
   cursor: pointer;
 }
+.hero-btn :hover,
+.hero-btn :focus {
+  color: #404bbf;
+}
 
 /*Our goals section*/
 
 .title {
+}
+
+.list {
+  list-style: none;
 }
 
 .item-goals {
@@ -257,6 +274,7 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  background-color: #ffffff;
 }
 
 .goals-descript {
