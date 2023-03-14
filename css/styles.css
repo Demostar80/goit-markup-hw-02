@@ -135,8 +135,8 @@ body {
   color: #ffffff;
   cursor: pointer;
 }
-.hero-btn :hover,
-.hero-btn :focus {
+.hero-btn:hover,
+.hero-btn:focus {
   color: #404bbf;
 }
 
