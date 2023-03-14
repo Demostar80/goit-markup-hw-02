@@ -104,7 +104,7 @@ body {
   color: #404bbf;
 }
 
-.contacts-item-mail {
+.contacts-item-link {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -112,13 +112,132 @@ body {
   letter-spacing: 0.02em;
   color: #434455;
 }
-.contacts-item-mobile {
+
+.section-hero {
+  background-color: var(--footer-background-color);
+}
+
+.title-hero {
+  font-family: "Roboto";
   font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+
+.hero-btn {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+  background-color: #4d5ae5;
+  color: #ffffff;
+  cursor: pointer;
+}
+.hero-btn :hover,
+.hero-btn :focus {
+  color: #404bbf;
+}
+
+/*Our goals section*/
+
+.title {
+}
+
+.list {
+  list-style: none;
+}
+
+.item-goals {
+}
+
+.goals-list {
+}
+
+.goals-points {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  background-color: #ffffff;
+}
+
+.goals-descript {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--descr-text-color);
+}
+
+/*Our projects section*/
+
+.projects-section {
+}
+
+.list {
+}
+
+.our-projects {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+
+.projects-list {
+  background-color: #ffffff;
+}
+
+/*Our team section*/
+
+.our-team-section {
+  background-color: var(--btn-background-cloud-color);
+}
+.our-team {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+.our-team-list {
+  background-color: #ffffff;
+}
+
+.our-team-img {
+  background-color: #fcfcfc;
+}
+
+.item-team {
+  background-color: #ffffff;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--footer-background-color);
+}
+
+.item-descript {
+  background-color: #ffffff;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--descr-text-color);
 }
 
 /*Main section portfolio*/
@@ -218,125 +337,4 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
-}
-
-.section-hero {
-  background-color: var(--footer-background-color);
-}
-
-.title-hero {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 56px;
-  line-height: 1.07;
-  text-align: center;
-  letter-spacing: 0.02em;
-  color: #ffffff;
-}
-
-.hero-btn {
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  display: flex;
-  align-items: center;
-  letter-spacing: 0.04em;
-  background-color: #4d5ae5;
-  color: #ffffff;
-  cursor: pointer;
-}
-.hero-btn :hover,
-.hero-btn :focus {
-  color: #404bbf;
-}
-
-/*Our goals section*/
-
-.title {
-}
-
-.list {
-  list-style: none;
-}
-
-.item-goals {
-}
-
-.goals-list {
-}
-
-.goals-points {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-  background-color: #ffffff;
-}
-
-.goals-descript {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--descr-text-color);
-}
-
-/*Our projects section*/
-
-.projects-section {
-}
-
-.our-projects {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.11;
-  text-align: center;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  color: #2e2f42;
-}
-
-.projects-list {
-  background-color: ;
-}
-
-/*Our team section*/
-
-.our-team-section {
-  background-color: var(--btn-background-cloud-color);
-}
-.our-team {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.11;
-  text-align: center;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  color: #2e2f42;
-}
-
-.our-team-img {
-  background-color: #fcfcfc;
-}
-
-.item-team {
-  background-color: #ffffff;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: var(--footer-background-color);
-}
-
-.item-descript {
-  background-color: #ffffff;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--descr-text-color);
 }
