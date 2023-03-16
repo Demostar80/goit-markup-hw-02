@@ -214,10 +214,11 @@ body {
 /*Main section portfolio*/
 
 .btn-item {
-  background-color: #e5e5e5;
+  background-color: #ffffff;
 }
 
 .btn-list-text {
+  background-color: #ffffff;
 }
 
 .btn-list {
@@ -229,13 +230,13 @@ body {
   letter-spacing: 0.04em;
   color: var(--logo-web-color);
   background-color: var(--btn-background-cloud-color);
+  cursor: pointer;
 }
 
-.btn-list-text:hover,
-.btn-list-text:focus {
+.btn-list:hover,
+.btn-list:focus {
   color: #ffffff;
   background-color: #404bbf;
-  cursor: pointer;
 }
 
 /*Projects list*/
